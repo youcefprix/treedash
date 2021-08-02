@@ -10,19 +10,18 @@
 
 ## How to use this App.
 * Host the sample included inside [rest_api](https://github.com/youcefprix/treedash/tree/master/rest_api) on preffered web hosting
-* Create a table inside your database using [FlutterClientPhpBackend.sql](https://github.com/harsh159357/flutter_client_php_backend/blob/master/phpbackend/FlutterClientPhpBackend.sql)
-* If you are using your own website just edit the following constant inside [constants.dart](https://github.com/harsh159357/flutter_client_php_backend/blob/master/lib/utils/constants.dart)
+* Create a table inside your database using [api_data.sql](https://github.com/youcefprix/treedash/blob/master/rest_api/api_data.sql)
+* If you are using your own website just edit the following constant inside [NodeProvider.dart](https://github.com/youcefprix/treedash/blob/master/lib/providers/node_provider.dart)
 
-      static const String API_BASE_URL = "https://bingedev.com/";
+      final String apiUrl = "https://localhost.com/";
 
-* Make sure to edit [DBOperations.php](https://github.com/harsh159357/flutter_client_php_backend/blob/master/phpbackend/DBOperations.php) and change following things -
+* Make sure to edit [DataBase.php](https://github.com/youcefprix/treedash/blob/master/rest_api/config/Database.php) and change following things -
 
-    private $host = 'your_host';
-    private $user = 'your_user_name';
-    private $db = 'your_database';
-    private $pass = 'your_password';
-
-### Not Interested in doing above steps just clone this repo and use it as it is already hosted [bingedev](https://bingedev.com/)
+    private $host = 'localhost';
+    private $db_name = 'api_data';
+    private $username = 'root';
+    private $password = '';
+    private $conn;
 
 
 ## Features Implemented
