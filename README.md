@@ -6,7 +6,9 @@
 
 * [Flutter](https://flutter.io) - Cross Platform App Development Framework
 
-
+## Screenshots
+![alt text](https://raw.githubusercontent.com/youcefprix/treedash/master/Capture.PNG)
+![alt text](https://raw.githubusercontent.com/youcefprix/treedash/master/Capture2.PNG)
 
 ## How to use this App.
 * Host the sample included inside [rest_api](https://github.com/youcefprix/treedash/tree/master/rest_api) on preffered web hosting
